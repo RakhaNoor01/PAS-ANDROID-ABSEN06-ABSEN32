@@ -1,4 +1,4 @@
-package com.example.pas_absen06_absen32.ui.notifications;
+package com.example.pas_absen06_absen32.ui.anggotakelompok;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.pas_absen06_absen32.databinding.FragmentNotificationsBinding;
 
-public class NotificationsFragment extends Fragment {
+public class KelompokFragment extends Fragment {
 
     private FragmentNotificationsBinding binding;
 
