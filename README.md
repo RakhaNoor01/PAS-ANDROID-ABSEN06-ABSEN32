@@ -1,8 +1,33 @@
-# ﷽ ☪
+<h1 align="center">﷽ ☪</h1>
 
-# PAS_GENAP_ABSEN06_ABSEN32
-# ⭐⭐⭐🙏🙏 SELAMAT DATANG PAK AJI 🤲🤲🌹🌹🌹
+###
 
-![](https://media.tenor.com/W3LLABGg6nMAAAAi/miggi-star-with-bismillah.gif)
-![](https://media1.tenor.com/m/45YKzA-yEvMAAAAC/java-miggi-keybooyz.gif)
-![](https://media1.tenor.com/m/WkzkxvWOhsAAAAAC/semangat-bismillah.gif)
+<h2 align="center">PAS GENAP ABSEN 06 DAN ABSEN 32</h2>
+
+###
+
+<h2 align="center">⭐⭐⭐ SELAMAT DATANG PAK AJI 🌹🌹🌹<br>🤲🤲🤲🤲🤲🤲🙏🙏🙏🙏🙏🙏</h2>
+
+###
+
+<div align="center">
+  <img height="300" src="https://media.tenor.com/W3LLABGg6nMAAAAi/miggi-star-with-bismillah.gif"  />
+</div>
+
+###
+
+<br clear="both">
+
+<div align="center">
+  <img height="300" src="https://media1.tenor.com/m/45YKzA-yEvMAAAAC/java-miggi-keybooyz.gif"  />
+</div>
+
+###
+
+<img align="right" height="300" src="https://media1.tenor.com/m/WkzkxvWOhsAAAAAC/semangat-bismillah.gif"  />
+
+###
+
+<img align="left" height="300" src="https://i.makeagif.com/media/8-15-2022/le1-sK.gif"  />
+
+###
