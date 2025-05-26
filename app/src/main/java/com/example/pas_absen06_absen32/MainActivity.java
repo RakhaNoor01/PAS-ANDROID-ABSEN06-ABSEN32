@@ -1,37 +1,52 @@
 package com.example.pas_absen06_absen32;
 
+
 import android.os.Bundle;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
-import com.example.pas_absen06_absen32.databinding.ActivityMainBinding;
+import androidx.fragment.app.Fragment;
+
+import com.example.pas_absen06_absen32.ui.anggotakelompok.KelompokFragment;
+import com.example.pas_absen06_absen32.ui.country.CountryFragment;
+import com.example.pas_absen06_absen32.ui.laliga.LaligaFragment;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ActivityMainBinding binding;
+    BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+        bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        BottomNavigationView navView = findViewById(R.id.nav_view);
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
-                .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-        NavigationUI.setupWithNavController(binding.navView, navController);
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.frame_layout, new LaligaFragment())
+                .commit();
+
+        bottomNavigationView.setOnItemSelectedListener(item -> {
+            Fragment fragment = null;
+            int itemId = item.getItemId();
+
+            if (itemId == R.id.nav_Laliga) {
+                fragment = new LaligaFragment();
+            } else if (itemId == R.id.nav_Country) {
+                fragment = new CountryFragment();
+            } else if (itemId == R.id.nav_Member) {
+                fragment = new KelompokFragment();
+            }
+
+            if (fragment != null) {
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.frame_layout, fragment)
+                        .commit();
+                return true;
+            }
+            return false;
+        });
     }
-
 }
