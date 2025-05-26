@@ -28,8 +28,8 @@ public class KelompokFragment extends Fragment {
 
         // Static list of group members
         List<Member> members = Arrays.asList(
-                new Member("Azka El Fachrizy", "nama1@email.com", "081234567890", "06", "https://avatars.githubusercontent.com/u/107330423?v=4"),
-                new Member("Rakha Noor A. Admaja", "nama2@email.com", "081234567891", "32", "https://avatars.githubusercontent.com/u/191069830?v=4")
+                new Member("Azka El Fachrizy", "azkaelfachrizy@gmail.com", "085741505808", "06", "https://avatars.githubusercontent.com/u/107330423?v=4"),
+                new Member("Rakha Noor A. Admaja", "rakhanoor12@gmail.com", "081334142387", "32", "https://avatars.githubusercontent.com/u/191069830?v=4")
                 // Tambahkan anggota lain jika perlu
         );
 
