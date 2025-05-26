@@ -8,6 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.pas_absen06_absen32.R;
 import com.example.pas_absen06_absen32.model.Member;
 import com.squareup.picasso.Picasso;
 import java.util.List;
