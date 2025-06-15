@@ -13,7 +13,6 @@
 <div align="center">
   <img height="300" src="https://media.tenor.com/W3LLABGg6nMAAAAi/miggi-star-with-bismillah.gif"  />
 </div>
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/RakhaNoor01/PAS-ANDROID-ABSEN06-ABSEN32)
 ###
 
 <br clear="both">
